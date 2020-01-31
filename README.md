@@ -5,4 +5,8 @@ ASSOCIATION RULE LEARNING APRIORI ALGORITHM
 
 People who bought also bought...
 
+![](images/Screenshot(1066).png)
+
+
+
 
