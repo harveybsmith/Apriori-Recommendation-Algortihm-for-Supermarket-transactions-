@@ -3,7 +3,7 @@ This project uses an apriori algorithm from supermarket transaction data from a 
 
 ASSOCIATION RULE LEARNING APRIORI ALGORITHM
 
-People who bought also bought...
+People who bought also bought, people who liked also liked...
 
 ![](images/Screenshot(1066).png)
 
