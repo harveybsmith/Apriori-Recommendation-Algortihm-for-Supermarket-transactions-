@@ -5,7 +5,7 @@ ASSOCIATION RULE LEARNING APRIORI ALGORITHM
 
 People who bought also bought, people who liked also liked...
 
-<img src = "images/Screenshot(1066).png" width=200>
+<img src = "images/Screenshot(1066).png" width=500>
 
 ![](images/Screenshot(1066).png)
 
