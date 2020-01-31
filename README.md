@@ -7,7 +7,7 @@ People who bought also bought, people who liked also liked...
 
 <img src = "images/Screenshot(1066).png" width=500>
 
-![](images/Screenshot(1066).png)
+
 
 
 
