@@ -33,6 +33,10 @@ So we have a greater chance of that random person liking scallops if they are al
 
 Apriori is actually a slow algortihm becuase it goes through and looks at all possible combinations, therefore we need to set a minimum support so maybe set min support to 20% so dont even look at those.  Then limit a confidence like in our example 17.5%.  The key to optimizing and tweaking this algorithm is playing with the min support and confidence in the code.  In the end sort them by lift and look at those with the highest lift.  This also takes some manual inspection and making deducing if these combination really make sense.
 
+#Considerations
+
+Apriori works well but in real production such as Netflix or Amazon and in your own business, its probably best to use a combination of recommendation algorithms.  Apriori is a good place to start to understand what is going on under the hood
+
 
 
 
