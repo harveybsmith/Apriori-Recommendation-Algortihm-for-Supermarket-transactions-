@@ -35,7 +35,7 @@ Apriori is actually a slow algortihm becuase it goes through and looks at all po
 
 #Considerations
 
-Apriori works well but in real production such as Netflix or Amazon and in your own business, its probably best to use a combination of recommendation algorithms.  Apriori is a good place to start to understand what is going on under the hood
+Apriori works well but in real production such as Netflix or Amazon and in your own business, its probably best to use a combination of recommendation algorithms.  Apriori is a good place to start to understand what is going on under the hood.  For a small and growing business it should work well if the parameters such as support and confidence are set right.  One can try different options and observe a one month trend and if revenue increases, keep those parameters.  Or, try others and see if revenue increases even more.  However, other factors such as seasonality and prices also affect these outcomes in this business case
 
 
 
