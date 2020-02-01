@@ -19,9 +19,13 @@ The Support is similar to the intuition for Naive Bayesian Classification.  So w
 
 <img src = "images/AprioriSupport.png" width=400>
 
-In step two we find the Confidence. The confidence is the number of occurences (tranactions) with transactions containing #Item1 **and** #Item2 divided by transactions containing just #Item1.  We are testing a **rule**.  Here we have a **hypothesis** that people who bought #Item1 also are likely to like #Item2.  Or people who saw (we assume, liked) Movie1 also liked Movie2.  
+In step two we find the Confidence. The confidence is the number of occurences (tranactions) with transactions containing #Item1 **and** Item2 divided by transactions containing just Item1.  We are testing a **rule**.  Here we have a **hypothesis** that people who bought Item1 also are likely to like Item2.  Or people who saw (we assume, liked) Movie1 also liked Movie2.  
 
 <img src = "images/AprioriConfidence.png" width=400> <img src = "images/AprioriConfidence2.png" width=400>
+
+In the last step we calculate the lift for each "Rule" or hypothesized association.  The lift is basically the confidence divded by the support.  So in the illustration below using our case of transactions, out of a population of 100, those in green are people who purchased mayonaise, and people circled in red are those that purchased scallops.  If we take another random population, what is the likely hood if we recommend scallops, what is the likelyhood that they will like it, but now using **prior** knowledge that they like Mayonaise, hence *Apriori*.  In this new population let's only recommend scallops to those that hay also purchased mayonaise and lemons.  Or using a movie recommendation example, lets only recommend *Ex Machina* (not a particularly popular movie) to those who have seen *Interstellar* becuase we beleive they will have a greater chance of liking it or at least being curious and click that play button.
+
+
 
 
 
