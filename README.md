@@ -21,7 +21,7 @@ The Support is similar to the intuition for Naive Bayesian Classification.  So w
 
 In step two we find the Confidence. The confidence is the number of occurences (tranactions) with transactions containing #Item1 **and** #Item2 divided by transactions containing just #Item1.  We are testing a **rule**.  Here we have a **hypothesis** that people who bought #Item1 also are likely to like #Item2.  Or people who saw (we assume, liked) Movie1 also liked Movie2.  
 
-
+<img src = "images/AprioriConfidence.png" width=400> <img src = "images/AprioriConfidence2.png" width=400>
 
 
 
