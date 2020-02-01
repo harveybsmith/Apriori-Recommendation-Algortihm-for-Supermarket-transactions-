@@ -9,7 +9,7 @@ Apriori is designed to operate on a database containing transactions.  For exapl
 
 Apriori uses a bottom up approach, where frequent subsets are extended one item at a time, a step known as **candidate generation** and groups of candidates are tested against the data.
 
-<img src = "images/Screenshot(1066).png" width=500>
+<img src = "images/Screenshot(1066).png" width=400>
 
 
 
