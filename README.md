@@ -19,7 +19,7 @@ The Support is similar to the intuition for Naive Bayesian Classification.  So w
 
 <img src = "images/AprioriSupport.png" width=400>
 
-In step two we find the Confidence. The confidence is the number of occurences (tranactions) with transactions containing #Item1 **and** Item2 divided by transactions containing just Item1.  We are testing a **rule**.  Here we have a **hypothesis** that people who bought Item1 also are likely to like Item2.  Or people who saw (we assume, liked) Movie1 also liked Movie2.  
+In step two we find the Confidence. The confidence is the number of occurences (tranactions) with transactions containing #Item1 **and** Item2 divided by transactions containing just Item1.  We are testing a **rule**.  Here we have a **hypothesis** that people who bought Item1 also are likely to like Item2.  Or people who saw (we assume, liked) Movie1 also liked Movie2.  We must be careful when building the algorithm to not set the confidence too high, otherwise items are the frequently bought in general like mineral water and eggs will be recommended together not because there is a special connection between them but rather, simply because they are the most frequently bought items.
 
 <img src = "images/AprioriConfidence.png" width=400> <img src = "images/AprioriConfidence2.png" width=400>
 
