@@ -17,7 +17,7 @@ The Apriori algorithm has 3 parts to it: The **Support**, **Confidence**, and **
 
 The support is similar to the intuition for Naive Bayesian Classification.  So we have number of users who watched **Movie M** divided by the total number of users in a dataset, or the number of customers who bought **Product I** divided by total number of transactions.
 
-
+<img src = "images/AprioriSupport.png" width=400>
 
 
 
