@@ -27,7 +27,7 @@ In the last step we calculate the lift for each "Rule" or hypothesized associati
 
 <img src = "images/AprioriLift.png" width=400> <img src = "images/AprioriLift2.png" width=400>
 
-So we have a greater chance of that random person liking scallops if they are also purchasing mayonaise and lemons (or vice e versa) or likeing *Ex Machina* if they have seen *Interstellar*
+So we have a greater chance of that random person liking scallops if they are also purchasing mayonaise and lemons (or vice e versa) or likeing *Ex Machina* if they have seen *Interstellar* whereas without prior knowledge that they liked *Interstellar* there was only a 10% chance (the Support).
 
 
 
