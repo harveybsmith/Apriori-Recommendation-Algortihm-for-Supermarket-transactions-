@@ -13,11 +13,11 @@ Apriori uses a bottom up approach, where frequent subsets are extended one item 
 
 The Apriori algorithm has 3 parts to it: The **Support**, **Confidence**, and **Lift**
 
-<img src = "images/AprioiAlgorithm.png" width = 600>
+<img src = "images/AprioiAlgorithm.png" width=600>
 
 The support is similar to the intuition for Naive Bayesian Classification.  So we have number of users who watched **Movie M** divided by the total number of users in a dataset, or the number of customers who bought **Product I** divided by total number of transactions.
 
-<img scr = "images/AprioriSupport.png" width = 600>
+<img src = "images/AprioriSupport.png" width=600>
 
 
 
