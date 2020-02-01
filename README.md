@@ -25,7 +25,7 @@ In step two we find the Confidence. The confidence is the number of occurences (
 
 In the last step we calculate the lift for each "Rule" or hypothesized association.  The lift is basically the confidence divded by the support.  So in the illustration below using our case of transactions, out of a population of 100, those in green are people who purchased mayonaise, and people circled in red are those that purchased scallops.  If we take another random population, what is the likely hood if we recommend scallops, what is the likelyhood that they will like it, but now using **prior** knowledge that they like Mayonaise, hence *Apriori*.  In this new population let's only recommend scallops to those that hay also purchased mayonaise and lemons.  Or using a movie recommendation example, lets only recommend *Ex Machina* (not a particularly popular movie) to those who have seen *Interstellar* becuase we beleive they will have a greater chance of liking it or at least being curious and click that play button.
 
-< img src = "images/AprioriLift.png" width=400> img src = "images/AprioriLift2.png" width=400>
+< img src = "images/AprioriLift.png" width=400> <img src = "images/AprioriLift2.png" width=400>
 
 So we have a greater chance of that random person liking scallops if they are also purchasing mayonaise and lemons (or vice e versa) or likeing *Ex Machina* if they have seen *Interstellar*
 
