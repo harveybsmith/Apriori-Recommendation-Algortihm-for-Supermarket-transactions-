@@ -14,12 +14,6 @@ from itertools import combinations
 from itertools import chain
 
 
-# Meta informations.
-__version__ = '1.1.1'
-__author__ = 'Yu Mochizuki'
-__author_email__ = 'ymoch.dev@gmail.com'
-
-
 ################################################################################
 # Data structures.
 ################################################################################
